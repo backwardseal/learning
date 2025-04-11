@@ -1,22 +1,24 @@
-.h1 {
-    color: brown;
-    outline: 5px solid rebeccapurple;
-    padding: 5px;
-    margin: 5px;
-    border: 5px;
-    background-color: bisque;
-    height: 50px;
-    width: 150px;
-    box-sizing: border-box;
+p,ul {
+    outline: 2px solid rebeccapurple;
+    padding: 0.2em;
 }
-#button {
-    color: red;
-    height: 35px;
-    width: 50px;
+.block,li {
+    border: 2px solid blue;
+    padding: 0.2em;
+}
+
+ul {
+    display: inline-flex;
+    list-style: none;
+    background-color: antiquewhite;
+}
+.block {
+    display: inline;
     background-color: blanchedalmond;
-    outline: 10px;
-    padding: 5px;
-    margin: 10;
-    box-sizing: border-box;
-    border: 10px;
+}
+p {
+    background-color: beige;
+}
+li {
+    background-color: aquamarine;
 }
